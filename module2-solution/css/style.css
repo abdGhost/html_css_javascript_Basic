@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+/****************BASE STYLE****************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #faf2f2;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+p {
+    color: #efdbdb;
+    padding: 5px 10px;
+    clear: both;
+}
+
+
+div .sub-menu {
+    border: 2px solid #fff;
+    height: auto;
+    width: 65px;
+    margin: 5px;
+}
+
+.sub-menu1 {
+    float:right;
+    border: 2px solid #000;
+    background-color: #dea6b0;
+    padding: 3px;
+}
+
+.sub-menu2 {
+   float:right;
+    border: 2px solid #000;
+    background-color: #5f47e5;
+    padding: 3px;
+}
+.sub-menu3 {
+    float:right;
+    border: 2px solid #000;
+    background-color: #b523d8;
+    padding: 3px;
+}
+
+
+.chicken-menu {
+    background-color: #645e5e;
+    border: 3px solid #030000;
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+.beef-menu {
+    background-color: #645e5e;
+    border: 3px solid #030000;
+    height: 100%;
+    width: 30%;
+    float: left;
+     margin: 20px;
+}
+
+.sushi-menu {
+    background-color: #645e5e;
+    border: 3px solid #030000;
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin: 20px;
+}
+
+
+/********* SCREEN SIZE BETWEEN 1200px to 992px**************/
+
+@media only screen and (max-width: 1200px) and (min-width: 992px)  {
+    
+
+.chicken-menu {
+    height: 100%;
+    width: 45%;
+}
+
+.beef-menu {
+    height: 100%;
+    width: 45%;
+}
+
+.sushi-menu {
+    height: 100%;
+    width: 94%;
+}
+}
+
+
+/********* SCREEN SIZE BETWEEN 991px to 768px**************/
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+   
+.chicken-menu {
+    height: 100%;
+    width: 45%;
+}
+
+.beef-menu {
+    height: 100%;
+    width: 45%;
+}
+
+.sushi-menu {
+    height: 100%;
+    width: 95%;
+}
+}
+
+
+/********* SCREEN SIZE IS LOWER THEN 767px**************/
+@media only screen and (max-width: 767px)  {
+ 
+.chicken-menu {
+    height: 100%;
+    width: 90%;
+}
+
+.beef-menu {
+    height: 100%;
+    width: 90%;
+}
+
+.sushi-menu {
+    height: 100%;
+    width: 90%;
+}
+}
